@@ -71,7 +71,7 @@ Le transfert IPv4 doit être activé pour permettre au routeur de transmettre le
 
 ---
 
-# 2. Activation du routage IPv4
+# 2. Activation du routage IPv4 sur ROUTER-01
 
 Paramètre utilisé :
 
