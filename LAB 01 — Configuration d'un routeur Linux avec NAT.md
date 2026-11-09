@@ -82,7 +82,8 @@ net.ipv4.ip_forward
 Activation temporaire :
 
 ```bash
-sysctl -w net.ipv4.ip_forward=1
+<img width="452" height="20" alt="image" src="https://github.com/user-attachments/assets/93425a96-88ac-49c1-a3b7-676638401814" />
+
 ```
 
 Vérification :
