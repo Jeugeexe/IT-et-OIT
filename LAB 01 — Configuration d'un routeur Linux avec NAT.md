@@ -1,5 +1,5 @@
 
-## 🎯 Objectif du laboratoire
+##  Objectif du laboratoire
 
 L'objectif de ce laboratoire est de mettre en place un environnement réseau permettant à une machine située sur un réseau LAN privé d'accéder à Internet via un routeur Linux.
 
@@ -7,7 +7,7 @@ L'objectif de ce laboratoire est de mettre en place un environnement réseau per
 
 ---
 
-# 🏗️ Architecture réseau
+#  Architecture de l'infra
 
 ```text
                     INTERNET
@@ -33,7 +33,7 @@ LAN enp0s8 ──────│192.168.10.1│
 
 ---
 
-# 🖥️ Machines utilisées
+# Machines  utilisées et caractéristique 
 
 ## ROUTER-01
 
@@ -61,30 +61,30 @@ LAN enp0s8 ──────│192.168.10.1│
 
 Le routeur possède :
 
-- une interface WAN connectée au réseau extérieur ;
+- une interface WAN connectée au réseau extérieur `10.0.2.2` ;
 - une interface LAN connectée au réseau `192.168.10.0/24` ;
 - une route par défaut vers la passerelle WAN.
 
-Le transfert IPv4 doit être activé pour permettre au routeur de transmettre les paquets entre ses interfaces.
+Le routage IPv4 doit être activé sur Routeur-01 pour permettre de transmettre les paquets entre ses interfaces LAN-WAN.
 
 ---
 
 # 2. Activation du routage IPv4 sur ROUTER-01
 
-Paramètre utilisé :
+Paramètre a activé :
 
 ```text
 net.ipv4.ip_forward
 ```
 
-Activation temporaire :
+Activation temporaire du routage :
 
 ```bash
 sysctl -w net.ipv4.ip_forward=1
 ```
 ![Capture d'écran ](./captures/lab-01/1.png)
 
-Vérification :
+Vérification via :
 ```bash
 cat /proc/sys/net/ipv4/ip_forward
 ```
