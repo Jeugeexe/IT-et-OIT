@@ -82,7 +82,7 @@ Activation temporaire :
 ```bash
 sysctl -w net.ipv4.ip_forward=1
 ```
-![[Pasted image 20261109110054.png]]
+![Capture d'écran ](./captures/lab-01/1.png)
 
 Vérification :
 ```bash
@@ -90,7 +90,7 @@ cat /proc/sys/net/ipv4/ip_forward
 ```
 La résultat attendue est :
 
-![[Pasted image 20261109110010.png]]
+![Capture d'écran ](./captures/lab-01/2.png)
 
 ---
 
@@ -134,7 +134,8 @@ Le fichier de configuration utilisé est :
 
 La configuration finale contient :
 
-![[Pasted image 20261109115418.png]]
+![Capture d'écran ](./captures/lab-01/3.png)
+
 ### Fonctionnement
 
 -  flush ruleset: Efface toutes règles actif dans la mémoire 
@@ -191,7 +192,7 @@ La solution est de crée un fichier dans le répertoire /etc/sysctl.d afin de re
 ```text
 /etc/sysctl.d/99-router.conf
 ```
-![[Pasted image 20261109120534.png]]
+![Capture d'écran ](./captures/lab-01/4.png)
 
 Application :
 ```bash
@@ -205,22 +206,25 @@ sysctl --system
 
  Preuve 1 — Accès Internet depuis SRV-LINUX-01 via routeur-01
 
-![[Pasted image 20261109125316.png]]
+![Capture d'écran ](./captures/lab-01/5.png)
 
 Preuve 2 — DNS fonctionne
 
-![[Pasted image 20261109125418.png]]
+![Capture d'écran ](./captures/lab-01/6.png)
 
 Preuve 3 — le NAT est bien effectué
 
-Avec tcpdump on écoute l'interface WAN du routeur 
-![[Pasted image 20261109130050.png]]
+Avec tcpdump on écoute l'interface WAN du routeur
+
+![Capture d'écran ](./captures/lab-01/7.png)
 
 Puis nous allons ping 8.8.8.8 via SRV-Linux-01
-![[Pasted image 20261109130213.png]]
 
-Voici le résultat 
-![[Pasted image 20261109130231.png]]
+![Capture d'écran ](./captures/lab-01/8.png)
+
+Voici le résultat
+
+![Capture d'écran ](./captures/lab-01/9.png)
 
 On peut voit que l'IP out est bien celle de la patte WAN du routeur
 
