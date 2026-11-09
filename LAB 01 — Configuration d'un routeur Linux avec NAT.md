@@ -251,7 +251,7 @@ accès Internet : ok
 DNS : ok
 ```
 
-# 🏁 LAB 01 — TERMINÉ
+#  LAB 01 — TERMINÉ
 
 
 Au cours de ce laboratoire, les compétences suivantes ont été mises en pratique :
