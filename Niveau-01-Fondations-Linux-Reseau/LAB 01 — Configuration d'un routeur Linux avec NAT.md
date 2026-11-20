@@ -82,8 +82,7 @@ Activation temporaire du routage :
 ```bash
 sysctl -w net.ipv4.ip_forward=1
 ```
-![Capture d'écran ](./Niveau-01-Fondations-Linux-Reseau
-/captures/lab-01/1.png)
+![Capture d'écran ](./Niveau-01-Fondations-Linux-Reseau/captures/lab-01/1.png)
 
 Vérification via :
 ```bash
