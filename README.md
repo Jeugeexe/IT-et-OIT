@@ -1,18 +1,5 @@
 # Cybersecurity IT/OT — Infrastructure, Security & Industrial Systems
 
-\<p align="center">
-&#x20; \<strong>Parcours personnel de formation en administration systèmes, réseaux et cybersécurité industrielle\</strong>
-\</p>
-
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Domain-IT%20%2F%20OT-blue](https://img.shields.io/badge/Domain-IT%20%2F%20OT-blue)" />
-&#x20; \<img src="[https://img.shields.io/badge/Focus-Cybersecurity-red](https://img.shields.io/badge/Focus-Cybersecurity-red)" />
-&#x20; \<img src="[https://img.shields.io/badge/Linux-Debian-orange](https://img.shields.io/badge/Linux-Debian-orange)" />
-&#x20; \<img src="[https://img.shields.io/badge/Status-In%20Progress-yellow](https://img.shields.io/badge/Status-In%20Progress-yellow)" />
-\</p>
-
----
-
 ## Présentation du projet
 
 Ce dépôt GitHub regroupe un parcours personnel d'apprentissage et de mise en pratique consacré à l'administration des systèmes et réseaux, à la cybersécurité et à la sécurité des environnements industriels IT/OT.
