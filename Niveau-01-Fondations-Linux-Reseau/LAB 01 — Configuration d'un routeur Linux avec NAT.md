@@ -82,7 +82,7 @@ Activation temporaire du routage :
 ```bash
 sysctl -w net.ipv4.ip_forward=1
 ```
-![Capture d'écran ](./captures/lab-01/1.png)
+![Capture d'écran ](/captures/lab-01/1.png)
 
 Vérification via :
 ```bash
@@ -90,7 +90,7 @@ cat /proc/sys/net/ipv4/ip_forward
 ```
 La résultat attendue est :
 
-![Capture d'écran ](./captures/lab-01/2.png)
+![Capture d'écran ](/captures/lab-01/2.png)
 
 ---
 
