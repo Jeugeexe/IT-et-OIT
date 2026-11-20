@@ -90,7 +90,7 @@ cat /proc/sys/net/ipv4/ip_forward
 ```
 La résultat attendue est :
 
-![Capture d'écran ](/captures/lab-01/2.png)
+![Capture d'écran ](./Niveau-01-Fondations-Linux-Reseau/captures/2.png)
 
 ---
 
@@ -134,7 +134,7 @@ Le fichier de configuration utilisé est :
 
 La configuration finale contient :
 
-![Capture d'écran ](./captures/lab-01/3.png)
+![Capture d'écran ](./Niveau-01-Fondations-Linux-Reseau/captures/3.png)
 
 ### Fonctionnement
 
@@ -192,7 +192,7 @@ La solution est de crée un fichier dans le répertoire /etc/sysctl.d afin de re
 ```text
 /etc/sysctl.d/99-router.conf
 ```
-![Capture d'écran ](./captures/lab-01/4.png)
+![Capture d'écran ](./Niveau-01-Fondations-Linux-Reseau/captures/4.png)
 
 Application :
 ```bash
@@ -206,25 +206,25 @@ sysctl --system
 
  Preuve 1 — Accès Internet depuis SRV-LINUX-01 via routeur-01
 
-![Capture d'écran ](./captures/lab-01/5.png)
+![Capture d'écran ](./Niveau-01-Fondations-Linux-Reseau/captures/5.png)
 
 Preuve 2 — DNS fonctionne
 
-![Capture d'écran ](./captures/lab-01/6.png)
+![Capture d'écran ](./Niveau-01-Fondations-Linux-Reseau/captures/6.png)
 
 Preuve 3 — le NAT est bien effectué
 
 Avec tcpdump on écoute l'interface WAN du routeur
 
-![Capture d'écran ](./captures/lab-01/7.png)
+![Capture d'écran ](./Niveau-01-Fondations-Linux-Reseau/captures/7.png)
 
 Puis nous allons ping 8.8.8.8 via SRV-Linux-01
 
-![Capture d'écran ](./captures/lab-01/8.png)
+![Capture d'écran ](./Niveau-01-Fondations-Linux-Reseau/captures/8.png)
 
 Voici le résultat
 
-![Capture d'écran ](./captures/lab-01/9.png)
+![Capture d'écran ](./Niveau-01-Fondations-Linux-Reseau/captures/9.png)
 
 On peut voit que l'IP out est bien celle de la patte WAN du routeur
 
