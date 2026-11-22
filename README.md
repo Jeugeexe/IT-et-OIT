@@ -1,319 +1,203 @@
-# Cybersecurity IT/OT — Infrastructure, Security & Industrial Systems
+# IT / OT Engineering Portfolio
 
-## Présentation du projet
+**Administration systèmes · Ingénierie réseau · Cybersécurité · Technologies industrielles**
 
-Ce dépôt GitHub regroupe un parcours personnel d'apprentissage et de mise en pratique consacré à l'administration des systèmes et réseaux, à la cybersécurité et à la sécurité des environnements industriels IT/OT.
+Bienvenue sur mon portfolio technique consacré aux infrastructures IT, à la cybersécurité et aux environnements industriels OT.
 
-L'objectif est de développer progressivement des compétences techniques à travers la réalisation de laboratoires pratiques, la configuration d'infrastructures virtualisées, l'analyse de vulnérabilités, la mise en place de mécanismes de sécurité et l'application de référentiels professionnels.
+Ce dépôt regroupe mes projets personnels, mes laboratoires techniques et mes expérimentations dans le domaine des systèmes, des réseaux et de la sécurité informatique.
 
-Ce projet s'inscrit dans une démarche d'approfondissement des connaissances acquises durant mon parcours en informatique et dans la préparation de ma spécialisation en cybersécurité industrielle.
-
-**Objectif professionnel :** évoluer vers les métiers de la cybersécurité, avec une spécialisation dans la sécurisation des infrastructures industrielles et des systèmes IT/OT.
-
-## Objectifs techniques
-
-Ce parcours vise à développer les compétences suivantes :
-
-- Administration de systèmes Linux et Windows.
-- Administration des services réseau et des infrastructures.
-- Gestion des identités et des accès.
-- Conception et sécurisation des architectures réseau.
-- Segmentation réseau et filtrage des communications.
-- Déploiement de solutions de supervision et de centralisation des journaux.
-- Détection, analyse et réponse aux incidents de sécurité.
-- Compréhension des techniques d'attaque et des mécanismes de défense.
-- Connaissance des normes et référentiels de cybersécurité.
-- Analyse et sécurisation des architectures industrielles.
-- Compréhension des protocoles et systèmes industriels.
-- Application des principes de sécurité dans les environnements IT/OT.
+L'objectif est de développer progressivement des compétences allant de l'administration d'infrastructures informatiques classiques jusqu'à la sécurisation des systèmes industriels.
 
 ---
 
-## Architecture du parcours
+## Profil
 
-Le programme est organisé en **8 niveaux progressifs**, comprenant 30 laboratoires principaux, 9 laboratoires complémentaires et 7 modules consacrés aux normes et à la conformité.
+Je développe mes compétences dans les domaines suivants :
 
-| Niveau | Domaine                          | Objectif                                        |
-| ------ | -------------------------------- | ----------------------------------------------- |
-| 01     | Fondations informatiques         | Virtualisation, Linux et réseaux                |
-| 02     | Services et infrastructures      | Déploiement des services informatiques          |
-| 03     | Environnement d'entreprise       | Active Directory, identités et PKI              |
-| 04     | Réseaux et sécurité              | Pare-feu, VLAN, VPN et IDS/IPS                  |
-| 05     | SOC et détection                 | Supervision, SIEM et réponse à incident         |
-| 06     | Offensive et défensive           | Tests de sécurité et mécanismes de défense      |
-| 07     | Gouvernance et conformité        | ISO, IEC, NIST et réglementation                |
-| 08     | Cybersécurité industrielle IT/OT | Automates, SCADA et architectures industrielles |
-
----
-
-# Niveau 01 — Fondations informatiques
-
-**Objectif :** acquérir les bases nécessaires à la construction et à l'administration d'une infrastructure informatique.
-
-| Lab     | Sujet                            | Technologies et compétences                       |
-| ------- | -------------------------------- | ------------------------------------------------- |
-| LAB 01  | Infrastructure de virtualisation | VirtualBox, machines virtuelles, réseaux virtuels |
-| LAB 02  | Serveur Linux                    | Debian, utilisateurs, groupes et services         |
-| LAB 03  | Sécurisation Linux               | SSH, permissions, sudo, pare-feu                  |
-| LAB 04  | Réseaux TCP/IP                   | IPv4, masques, routage et passerelles             |
-| LAB 04B | Dépannage réseau                 | Diagnostic et résolution de pannes                |
-
-**Compétences visées :**
-
-- Installer et administrer une machine Linux.
-- Comprendre le fonctionnement d'un réseau IP.
-- Configurer des interfaces réseau.
-- Diagnostiquer des problèmes de connectivité.
-- Comprendre les bases de la virtualisation.
-
-# Niveau 02 — Services et infrastructures
-
-**Objectif :** déployer et administrer les services fondamentaux d'une infrastructure informatique.
-
-| Lab     | Sujet               | Technologies et compétences             |
-| ------- | ------------------- | --------------------------------------- |
-| LAB 05  | DNS                 | BIND9, zones directes et inverses       |
-| LAB 06  | DHCP                | Attribution automatique des adresses IP |
-| LAB 07  | Serveur Web         | Apache, Nginx, HTTP et HTTPS            |
-| LAB 08  | Partage de fichiers | Samba et permissions                    |
-| LAB 09  | Sauvegardes         | Automatisation et restauration          |
-| LAB 09B | Disaster Recovery   | PRA, PCA, RTO et RPO                    |
-
-**Compétences visées :**
-
-- Déployer les services réseau essentiels.
-- Administrer les services Linux.
-- Configurer les mécanismes de résolution de noms.
-- Gérer les partages et les permissions.
-- Mettre en place une stratégie de sauvegarde.
-- Organiser la reprise après incident.
-
-# Niveau 03 — Environnement d'entreprise
-
-**Objectif :** comprendre et administrer une infrastructure centralisée d'entreprise.
-
-| Lab     | Sujet                   | Technologies et compétences                    |
-| ------- | ----------------------- | ---------------------------------------------- |
-| LAB 10  | Active Directory        | Domaine, contrôleur de domaine et utilisateurs |
-| LAB 11  | Group Policy Objects    | GPO et stratégies de groupe                    |
-| LAB 12  | Active Directory avancé | OU, délégation et administration               |
-| LAB 12B | Identités et privilèges | Gestion des comptes, moindre privilège         |
-| LAB 13  | PKI                     | Autorité de certification et certificats       |
-
-**Compétences visées :**
-
-- Déployer un domaine Active Directory.
-- Administrer les comptes et groupes.
-- Gérer les stratégies de sécurité.
-- Appliquer le principe du moindre privilège.
-- Comprendre le fonctionnement d'une infrastructure à clés publiques.
-
-# Niveau 04 — Réseaux et sécurité
-
-**Objectif :** concevoir une architecture réseau sécurisée et maîtriser les mécanismes de protection des communications.
-
-| Lab     | Sujet               | Technologies et compétences          |
-| ------- | ------------------- | ------------------------------------ |
-| LAB 14  | Pare-feu            | nftables, NAT et filtrage            |
-| LAB 15  | VLAN                | 802.1Q et segmentation logique       |
-| LAB 16  | Segmentation réseau | DMZ et zones de confiance            |
-| LAB 16B | Matrice des flux    | Identification et contrôle des flux  |
-| LAB 17  | VPN                 | WireGuard et accès distant sécurisé  |
-| LAB 18  | IDS/IPS             | Suricata et détection des intrusions |
-
-**Compétences visées :**
-
-- Configurer un pare-feu.
-- Contrôler les communications réseau.
-- Concevoir une segmentation adaptée.
-- Sécuriser les connexions distantes.
-- Détecter les activités réseau suspectes.
-
-# Niveau 05 — SOC, supervision et détection
-
-**Objectif :** surveiller les infrastructures, détecter les incidents et réaliser des investigations techniques.
-
-| Lab     | Sujet                       | Technologies et compétences    |
-| ------- | --------------------------- | ------------------------------ |
-| LAB 19  | Collecte Windows            | Sysmon et événements système   |
-| LAB 20  | Centralisation des journaux | Graylog et collecte des logs   |
-| LAB 21  | Détection                   | Règles, alertes et corrélation |
-| LAB 22  | Réponse à incident          | Investigation et confinement   |
-| LAB 22B | Threat Hunting              | Recherche proactive de menaces |
-
-**Compétences visées :**
-
-- Collecter et analyser des journaux.
-- Centraliser les événements de sécurité.
-- Identifier des comportements suspects.
-- Construire des règles de détection.
-- Réaliser une première investigation.
-- Documenter les incidents de sécurité.
-
-# Niveau 06 — Sécurité offensive et défensive
-
-**Objectif :** comprendre les techniques d'attaque afin de mieux identifier les vulnérabilités et renforcer les mécanismes de défense.
-
-| Lab    | Sujet                               | Technologies et compétences            |
-| ------ | ----------------------------------- | -------------------------------------- |
-| LAB 23 | Environnement de test               | Kali Linux et laboratoire isolé        |
-| LAB 24 | Sécurité Web                        | OWASP et vulnérabilités applicatives   |
-| LAB 25 | Attaque et défense Active Directory | Analyse des attaques AD et remédiation |
-
-**Compétences visées :**
-
-- Comprendre les phases d'un test d'intrusion.
-- Identifier les vulnérabilités.
-- Comprendre les risques liés aux identités.
-- Analyser les traces d'une attaque.
-- Mettre en place des contre-mesures.
-
-Les exercices offensifs sont exclusivement réalisés dans des environnements de laboratoire isolés et autorisés.
-
-# Niveau 07 — Gouvernance, normes et conformité
-
-**Objectif :** comprendre les référentiels de cybersécurité utilisés dans les organisations et les environnements industriels.
-
-| Module | Référentiel                  | Compétences                                         |
-| ------ | ---------------------------- | --------------------------------------------------- |
-| S01    | ISO 27001                    | SMSI, analyse des risques et amélioration continue  |
-| S02    | ISO 27002                    | Mesures et bonnes pratiques de sécurité             |
-| S03    | IEC 62443                    | Sécurité des systèmes d'automatisation industrielle |
-| S04    | NIST Cybersecurity Framework | Gouvernance, protection et réponse                  |
-| S05    | NIST SP 800-82               | Sécurité des systèmes de contrôle industriels       |
-| S06    | Réglementation               | NIS2, Cyber Resilience Act, RGPD et ANSSI           |
-| S07    | Audit de cybersécurité       | Évaluation, preuves, écarts et remédiation          |
-
-**Compétences visées :**
-
-- Comprendre la gouvernance de la cybersécurité.
-- Réaliser une analyse des risques.
-- Identifier les mesures de sécurité pertinentes.
-- Comprendre les exigences de sécurité industrielle.
-- Étudier l'applicabilité des réglementations.
-- Produire un rapport d'audit.
-
-Les référentiels et réglementations seront étudiés en tenant compte de leurs versions et de leur champ d'application.
-
-# Niveau 08 — Cybersécurité industrielle IT/OT
-
-**Objectif :** comprendre les architectures industrielles et apprendre à protéger les systèmes de contrôle et d'automatisation.
-
-| Lab     | Sujet                                | Technologies et compétences                      |
-| ------- | ------------------------------------ | ------------------------------------------------ |
-| LAB 26  | Architecture industrielle            | IT/OT et modèle Purdue                           |
-| LAB 26B | Inventaire des actifs OT             | Identification et classification des équipements |
-| LAB 27  | Automate programmable                | PLC et simulation industrielle                   |
-| LAB 28  | Protocoles industriels               | Modbus/TCP et analyse des communications         |
-| LAB 28B | Analyse passive OT                   | Wireshark et observation du trafic               |
-| LAB 29  | Supervision industrielle             | SCADA et HMI                                     |
-| LAB 29B | Sécurité des postes d'ingénierie     | Durcissement et contrôle des accès               |
-| LAB 30  | Projet d'infrastructure industrielle | Conception et sécurisation IT/OT                 |
-| LAB 30B | Audit final IT/OT                    | Analyse des risques et recommandations           |
-
-**Compétences visées :**
-
-- Comprendre les différences entre IT et OT.
-- Étudier une architecture industrielle.
-- Identifier les actifs et les communications industrielles.
-- Comprendre les automates et les systèmes SCADA.
-- Analyser les protocoles industriels.
-- Appliquer les principes de segmentation.
-- Identifier les risques propres aux environnements industriels.
-- Proposer des mesures de sécurité adaptées.
-
----
-
-## Projet final — Infrastructure industrielle IT/OT
-
-Le projet final consiste à concevoir et sécuriser une infrastructure industrielle fictive.
-
-L'environnement devra reproduire une architecture comprenant plusieurs zones fonctionnelles :
-
-- Réseau informatique IT.
-- Réseau industriel OT.
-- DMZ industrielle.
-- Serveurs Linux et Windows.
-- Active Directory.
-- Pare-feu et segmentation réseau.
-- Automate programmable virtuel.
-- Système de supervision SCADA/HMI.
+- Administration des systèmes Linux et Windows.
+- Conception et administration d'infrastructures réseau.
+- Virtualisation et déploiement de services.
+- Sécurisation des systèmes et des infrastructures.
 - Supervision et centralisation des journaux.
-- Mécanismes de détection et de réponse aux incidents.
+- Cybersécurité des environnements industriels.
 
-### Livrables attendus
-
-1. Schéma d'architecture réseau.
-2. Plan d'adressage IP et VLAN.
-3. Matrice des flux réseau.
-4. Documentation des serveurs et services.
-5. Configuration des mécanismes de sécurité.
-6. Inventaire des actifs industriels.
-7. Analyse des risques.
-8. Étude de sécurité inspirée d'IEC 62443.
-9. Rapport d'audit.
-10. Plan de remédiation et recommandations.
-
-Le projet devra démontrer la capacité à concevoir, administrer, sécuriser et documenter une infrastructure IT/OT.
+Mon objectif à terme est de m'orienter vers la **cybersécurité industrielle (OT)**, en développant une expertise combinant administration IT, ingénierie réseau et sécurité des systèmes industriels.
 
 ---
 
-## Environnement technique
+## Domaines techniques
 
-Les technologies seront choisies progressivement en fonction des objectifs de chaque laboratoire.
+| Domaine | Technologies et compétences |
+|---|---|
+| Systèmes | Debian, Linux, Windows Server |
+| Réseau | TCP/IP, VLAN, routage, NAT, DNS, DHCP |
+| Infrastructure | VirtualBox, Docker, Active Directory |
+| Sécurité | SSH, AppArmor, pare-feu, durcissement |
+| Supervision | Graylog, Wazuh, Checkmk |
+| Services | Samba, GLPI, Vaultwarden, HAProxy |
+| OT / ICS | Modbus TCP, PLC, SCADA, architecture Purdue |
+| Normes | IEC 62443 |
 
-| Domaine                     | Technologies envisagées       |
-| --------------------------- | ----------------------------- |
-| Virtualisation              | VirtualBox                    |
-| Systèmes Linux              | Debian                        |
-| Systèmes Windows            | Windows 10/11, Windows Server |
-| Réseau                      | TCP/IP, VLAN, routage         |
-| DNS                         | BIND9                         |
-| DHCP                        | ISC DHCP ou Kea               |
-| Services Web                | Apache, Nginx                 |
-| Partage                     | Samba                         |
-| Annuaire                    | Active Directory              |
-| Pare-feu                    | nftables                      |
-| VPN                         | WireGuard                     |
-| IDS/IPS                     | Suricata                      |
-| Supervision                 | Graylog, outils de monitoring |
-| Analyse réseau              | Wireshark                     |
-| Tests de sécurité           | Kali Linux                    |
-| Protocoles industriels      | Modbus/TCP                    |
-| Automatisation industrielle | PLC et simulateurs            |
-| Supervision industrielle    | SCADA/HMI                     |
-
-Les outils pourront évoluer selon les besoins des laboratoires.
+*Cette liste présente les technologies étudiées ou prévues. Leur maîtrise dépend de l'avancement des projets.*
 
 ---
 
-## Progression
+# Projets techniques
 
-Le parcours est réalisé progressivement. Chaque niveau doit être validé avant de passer au suivant.
+Les projets sont organisés par domaine afin de faciliter leur consultation.
 
-| Niveau                             | Statut      |
-| ---------------------------------- | ----------- |
-| Niveau 01 — Fondations             | En cours    |
-| Niveau 02 — Infrastructures        | À commencer |
-| Niveau 03 — Entreprise             | À commencer |
-| Niveau 04 — Réseaux et sécurité    | À commencer |
-| Niveau 05 — SOC                    | À commencer |
-| Niveau 06 — Offensive et défensive | À commencer |
-| Niveau 07 — Normes et conformité   | À commencer |
-| Niveau 08 — IT/OT industriel       | À commencer |
-| Projet final                       | À commencer |
+## 01 — IT Infrastructure
+
+Administration, déploiement et maintenance des infrastructures informatiques.
+
+| Projet | Description | Statut |
+|---|---|---|
+| Linux Administration | Administration d'un serveur Debian | En cours |
+| Linux Server Hardening | Audit et sécurisation d'un serveur Linux | À réaliser |
+| Active Directory | Déploiement d'une infrastructure Windows Server | À réaliser |
+| Infrastructure Services | DNS, DHCP et partage de fichiers | En développement |
+| Virtualisation & Docker | Déploiement et gestion de machines et conteneurs | En développement |
+
+## 02 — Network Engineering
+
+Conception, configuration et sécurisation des infrastructures réseau.
+
+| Projet | Description | Statut |
+|---|---|---|
+| Network Fundamentals | Configuration et analyse réseau | En développement |
+| VLAN & Routing | Segmentation et routage inter-VLAN | À réaliser |
+| Firewall & NAT | Filtrage et translation d'adresses | En cours |
+| Network Monitoring | Supervision des équipements réseau | À réaliser |
+
+## 03 — Cybersecurity
+
+Sécurisation des systèmes, détection et analyse des événements de sécurité.
+
+| Projet | Description | Statut |
+|---|---|---|
+| Linux Hardening | Renforcement de la sécurité Linux | À réaliser |
+| AppArmor | Contrôle d'accès obligatoire sous Linux | En développement |
+| Log Management | Centralisation des journaux avec Graylog | En développement |
+| SOC Lab | Détection et analyse avec Wazuh | À réaliser |
+| Security Monitoring | Surveillance des événements de sécurité | À réaliser |
+
+## 04 — OT / ICS
+
+Découverte et administration des infrastructures industrielles.
+
+| Projet | Description | Statut |
+|---|---|---|
+| Purdue Model | Étude de l'architecture industrielle | À réaliser |
+| IT/OT Segmentation | Segmentation des réseaux industriels | À réaliser |
+| Modbus TCP | Étude et analyse des communications industrielles | À réaliser |
+| PLC & SCADA | Expérimentation avec des automates et systèmes de supervision | À réaliser |
+
+## 05 — Industrial Cybersecurity
+
+Sécurisation et surveillance des environnements industriels.
+
+| Projet | Description | Statut |
+|---|---|---|
+| IEC 62443 | Étude des principes de cybersécurité industrielle | À réaliser |
+| OT Monitoring | Surveillance des communications industrielles | À réaliser |
+| Industrial Threat Detection | Détection des comportements suspects | À réaliser |
+| IT/OT Security Architecture | Conception d'une architecture sécurisée | À réaliser |
 
 ---
 
-## Objectif professionnel
+# Parcours de progression
 
-Ce projet personnel accompagne mon évolution vers la cybersécurité des systèmes d'information et des systèmes industriels.
+Les projets suivent une progression technique en sept niveaux.
 
-Il vise à approfondir les compétences acquises en administration systèmes et réseaux, à développer une approche méthodique de la sécurité et à acquérir des connaissances spécifiques aux environnements industriels.
+| Niveau | Domaine | Objectif |
+|---|---|---|
+| 01 | Fondations | Linux, réseau et virtualisation |
+| 02 | Infrastructure | Services et administration systèmes |
+| 03 | Environnement entreprise | Windows Server et Active Directory |
+| 04 | Réseau et sécurité | VLAN, routage et pare-feu |
+| 05 | SOC et supervision | SIEM, journalisation et détection |
+| 06 | Cybersécurité | Sécurité offensive et défensive |
+| 07 | OT / ICS | PLC, SCADA et cybersécurité industrielle |
 
-Il constitue également un support de démonstration de mon travail personnel, de mon autonomie et de ma progression technique dans le cadre de la poursuite de mes études en cybersécurité.
-
-**L'objectif final est de disposer d'un portfolio technique documenté, fondé sur des réalisations pratiques et des méthodes proches des environnements professionnels.**
+Chaque niveau apporte les connaissances nécessaires pour aborder les projets suivants.
 
 ---
 
+# Méthodologie des projets
+
+Chaque projet suit une démarche technique structurée.
+
+**01 — Contexte et objectifs**
+
+Présentation du besoin, du problème technique et des objectifs recherchés.
+
+**02 — Architecture**
+
+Présentation de l'infrastructure, des machines, des services et des flux réseau.
+
+**03 — Environnement technique**
+
+Identification des systèmes, logiciels, versions et prérequis.
+
+**04 — Implémentation**
+
+Déploiement et configuration des différents composants.
+
+**05 — Vérification**
+
+Tests fonctionnels, contrôles de sécurité et validation des configurations.
+
+**06 — Documentation**
+
+Explication des choix techniques, commandes utilisées, difficultés et solutions.
+
+**07 — Résultats**
+
+Présentation des preuves, captures d'écran, schémas et bilan du projet.
+
+---
+
+# Environnement de laboratoire
+
+Les expérimentations sont réalisées dans des environnements virtualisés afin de pouvoir déployer, tester et modifier différentes architectures.
+
+| Composant | Utilisation |
+|---|---|
+| VirtualBox | Virtualisation |
+| Debian | Administration Linux |
+| Windows Server | Services d'infrastructure |
+| Docker | Conteneurisation |
+| pfSense | Sécurité réseau |
+| Graylog | Centralisation des journaux |
+| Wazuh | Supervision de sécurité |
+| OpenPLC | Expérimentation industrielle |
+
+Les technologies sont intégrées progressivement selon les besoins des projets.
+
+---
+
+# Documentation et preuves techniques
+
+Les dépôts contiennent, selon les projets :
+
+- Des schémas d'architecture.
+- Des fichiers de configuration.
+- Des procédures d'installation.
+- Des commandes expliquées.
+- Des captures d'écran.
+- Des résultats de tests.
+- Des analyses techniques.
+
+Les configurations sont documentées pour permettre de comprendre et, lorsque cela est possible, de reproduire les expérimentations.
+
+---
+
+# Objectif professionnel
+
+Construire progressivement un socle de compétences solide en administration systèmes et réseaux, puis approfondir la cybersécurité jusqu'aux environnements industriels.
+
+**IT / OT Engineering représente mon parcours d'apprentissage, mes expérimentations et mes réalisations techniques.**
+
+---
+
+<sub>Portfolio personnel — Projets réalisés en environnement de laboratoire.</sub>
