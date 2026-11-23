@@ -6,15 +6,15 @@
 
 ---
 
-## 🎯 Objectif
+##  Objectif
 
 Découvrir la virtualisation et préparer une machine virtuelle Debian 13 afin de disposer d'un environnement de test isolé.
 
-## 📚 Contexte
+##  Contexte
 
 Un administrateur système doit tester ses serveurs et ses configurations avant leur mise en production. VirtualBox permet de déployer rapidement une machine virtuelle sur un ordinateur, afin de réaliser ces tests sans mettre en danger l'infrastructure réelle de l'organisation.
 
-## 🧠 Notions essentielles
+##  Notions essentielles
 
 ### Machine virtuelle (VM)
 
@@ -62,7 +62,7 @@ Accéder aux paramètres réseau de la machine virtuelle et examiner/configurer 
 
 ---
 
-## 📸 Captures d'écran
+##  Captures d'écran
 
 Ajouter les captures dans le dossier `images/` du laboratoire, puis remplacer les chemins ci-dessous par les noms de fichiers correspondants.
 
@@ -81,7 +81,7 @@ Exemple pour afficher une capture :
 
 ---
 
-## ✅ Validation du laboratoire
+## Validation du laboratoire
 
 - [x] Comprendre le principe d'une machine virtuelle.
 - [x] Distinguer un hyperviseur de type 1 et de type 2.
@@ -90,7 +90,7 @@ Exemple pour afficher une capture :
 - [x] Créer un snapshot.
 - [x] Accéder aux paramètres réseau.
 
-## 📝 Bilan
+##  Bilan
 
 Ce laboratoire a permis de découvrir les bases de la virtualisation avec VirtualBox et de préparer une machine Debian 13 destinée aux prochains travaux pratiques.
 
