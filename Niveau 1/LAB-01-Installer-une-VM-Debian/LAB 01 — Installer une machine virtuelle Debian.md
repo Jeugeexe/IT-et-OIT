@@ -37,7 +37,7 @@ Un snapshot enregistre l'état d'une machine virtuelle à un instant donné. Il 
 
 ---
 
-## 🛠️ Mise en pratique
+##  Mise en pratique
 
 ### 1. Préparer l'installation
 
