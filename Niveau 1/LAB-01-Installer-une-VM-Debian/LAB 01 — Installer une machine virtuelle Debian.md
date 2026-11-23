@@ -69,10 +69,10 @@ Ajouter les captures dans le dossier `images/` du laboratoire, puis remplacer le
 | Étape | Capture |
 |---|---|
 | Création de la VM | `images/creation-vm.png` |
-| Attribution des ressources | `images/ressources-vm.png` |
+| Attribution des ressources | ![Création de la machine virtuelle](img/ressources-vm.png) |
 | Paramètres de la VM | `images/configuration-vm.png` |
-| Création du snapshot | `images/snapshot.png` |
-| Paramètres réseau | ![Création de la machine virtuelle](img/creation-vm.png) |
+| Création du snapshot | ![Création de la machine virtuelle](img/snapshot.png) |
+| Paramètres réseau | ![Création de la machine virtuelle](img/reseau.png) |
 
 <!--
 Exemple pour afficher une capture :
